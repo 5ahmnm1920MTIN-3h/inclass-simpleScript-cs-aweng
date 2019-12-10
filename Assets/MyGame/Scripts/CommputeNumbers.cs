@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class CommputeNumbers : MonoBehaviour
@@ -11,20 +9,6 @@ public class CommputeNumbers : MonoBehaviour
 
     float varA;
     float varB;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        varA = 5;
-        varB = 4;
-        SubstractNumbers(varA, varB);
-        SubstractNumbers(4, 7);
-        Debug.Log("in Start: " + SubstractNumbers(varA, varB));
-        Debug.Log("in Start: " + SubstractNumbers(4, 7));
-        Debug.Log(10 - SubstractNumbers(varA, varB));
-        Debug.Log(100 - SubstractNumbers(4, 7));
-        
-    }
 
     public void SetResult()
     {
