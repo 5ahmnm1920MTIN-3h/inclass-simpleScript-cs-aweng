@@ -1,11 +1,10 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class CommputeNumbers : MonoBehaviour
 {
     public InputField input1;
     public InputField input2;
-
     public Text resultLabel;
 
     float varA;
